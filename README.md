@@ -13,5 +13,6 @@ Combolist will follow that format:
 
 
 
-**NICKNAME:USERNAME:EMAIL:PASSWORD**
+**EMAIL:PASSWORD**
 
+We changed the format because it will not  be a combolist and you will never use it.
