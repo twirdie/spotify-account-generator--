@@ -42,7 +42,7 @@ def generate():
             return (True, nick+":"+r.json()["username"]+":"+email+":"+passw)
         else:
             #Details available in r.json()["errors"]
-            #print(r.json()["errors"])
+            print(r.json()["errors"])
             return (False, "Could not create the account, some errors occurred")
     else:
         return (False, "Could not load the page. Response code: "+ str(r.status_code))
@@ -58,6 +58,7 @@ if __name__ == "__main__":
 
     print("Generating accounts in the following format:", file=sys.stdout)
     print("NICKNAME:USERNAME:EMAIL:PASSWORD\n", file=sys.stdout)
+    print("When you are generating the accounts if you close the cmd Accounts will not save to .txt file\n", file=sys.stdout)
     for i in range(N):
         result = generate()
         if result[0]:
