@@ -36,7 +36,7 @@ def generate():
             "birth_day": random.randint(1, 20)}
     
     r = requests.post('https://spclient.wg.spotify.com/signup/public/v1/account/', headers=headers, data=payload)
-    time.sleep(10)
+    time.sleep(5)
     if r.status_code==200:
         if r.json()['status']==1:
             return (True, email+":"+passw)
