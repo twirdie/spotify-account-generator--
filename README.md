@@ -15,4 +15,4 @@ Combolist will follow that format:
 
 **EMAIL:PASSWORD**
 
-We changed the format because it will not  be a combolist and you will never use it.
+We changed the format because it will not  be a combolist and you will never use it on a combolist.
