@@ -1,7 +1,7 @@
 # spotify-account-generator-v2
 Spotify Account Generator V2
 
-Usage
+# Usage
 
 You can specify amount of accounts and output file to save.
 
