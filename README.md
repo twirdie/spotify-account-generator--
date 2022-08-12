@@ -3,7 +3,7 @@ Spotify Account Generator V2
 
 # Usage
 
-You can specify amount of accounts and output file to save.
+You can specify amount of accounts and output file(name and .txt or anything) to save.
 
 
 
